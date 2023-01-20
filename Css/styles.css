@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html body {
+    background-color: #faf4f2;
+}
+.clear {
+    clear:both;
+}
+/* Xu ly header */
+.header {
+    background-color: #f8e1db;
+    padding: 27px 86px;
+}
+.header ul {
+    list-style: none;
+    margin-top: 7px;
+    display: inline;
+}
+.header ul li a {
+    float: left;
+    margin-right: 60px;
+    text-decoration: none;
+}
+.header .active a {
+    color: red;
+}
+
+/* Xu ly carousel */
+.carousel {
+    background-image: url(../img/BG.png);
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Xu ly activities */
+.activities {
+    margin-top: 100px;
+    text-align: center;
+}
+.activities_img {
+    position: relative;
+}
+.activities_title {
+    font-size: 17px;
+    color: #8d8d8d;
+}
+.activities_item {
+    float: left;
+    width: 25%;
+    padding: 15px;
+}
+.activities_card {
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 25px;
+}
+.activities_card img {
+    width: 100%;
+    border-radius: 20px;
+}
+.activities_form h3 {
+    color: #3a3735;
+    margin-top: 15px;
+}
+.activities_form p {
+    color:#8d8d8d;
+    margin-top: 15px;
+}
+.activities_form button {
+    cursor: pointer;
+    border: transparent;
+    background-color: #e8e8e8;
+    padding: 13px 60px;
+    margin-top: 30px;
+    border-radius: 20px;
+    color: #8d8d8d;
+}
+.activities_viewall button {
+    cursor: pointer;
+    padding: 13px 70px;
+    background-color: #faf4f2;
+    margin-top: 25px;
+    border: transparent;
+    border: 2px solid #e77154;
+    border-radius: 20px;
+    color: #e77052;
+}
+.activities_love {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #ffffffcf;
+    color: red;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 13px;
+    z-index: 10;
+    cursor: pointer;
+}
+.activities_form button:hover,
+.activities_viewall button:hover {
+    background-color: #e77052;
+    color: white;
+}
+/* Xu ly contact */
+.contact {
+    background-color: #f8e1db;
+    margin-top: 70px;
+    border-radius: 20px;
+    margin-bottom: 90px;
+    float: left;
+    width: 100%;
+}
+.contact_left,
+.contact_right {
+    float: left;
+    width: 50%;
+    padding: 20px 60px;
+}
+.contact_app,
+.contact_us {
+    float: left;
+    margin-right: 10px;
+}
+.contact_left {
+    background-image: url(../img/mask.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+}
+.contact_right {
+    padding-top: 70px;
+}
+.contact_us .app {
+    float: left;
+    margin-right: 100px;
+}
+.contact_touch {
+    color:#8d8d8d;
+}
+.contact_app h3,
+.contact_us  h3 {
+    color:#8d8d8d;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.contact_us .app {
+    font-size: 25px;
+    color: #e76f51;
+    cursor: pointer;
+}
+.contact_app .ap {
+    cursor: pointer;
+}
